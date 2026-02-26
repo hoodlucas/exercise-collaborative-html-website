@@ -6,21 +6,25 @@ body{
 
 .hero-section {
     height: 100vh;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.55),
-        rgba(0, 0, 0, 0.55)
-    ),
-    url('../designs/guide.jpg') center center / cover no-repeat;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+        ),
+        url('../designs/city.jpg') center center / cover no-repeat;
 }
 
-/* Título principal */
+/* Título gigante responsive */
 .hero-title {
     font-size: clamp(3rem, 8vw, 6rem);
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    text-shadow: 2px 4px 20px rgba(0, 0, 0, 0.7);
 }
 
-/* Subtítulo */
+/* Subtítulo elegante */
 .hero-subtitle {
     font-size: clamp(1.2rem, 3vw, 2rem);
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    opacity: 0.9;
 }
